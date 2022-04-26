@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./styles/style.css">
+    <title>Calculadora</title>
+</head>
+
+<body>
+
+    <section id="container">
+        <h1>CALCULADORA</h1>
+        <div id="visor"></div>
+
+        <div id="teclas">
+
+            <input onclick="insert('9')" type="button" value="9" class="bnt">
+            <input onclick="insert('8')" type="button" value="8" class="bnt">
+            <input onclick="insert('7')" type="button" value="7" class="bnt">
+            <input onclick="insert('/')" type="button" value="/" class="bnt">
+            <input onclick="insert('6')" type="button" value="6" class="bnt">
+            <input onclick="insert('5')" type="button" value="5" class="bnt">
+            <input onclick="insert('4')" type="button" value="4" class="bnt">
+            <input onclick="insert('*')" type="button" value="*" class="bnt">
+            <input onclick="insert('3')" type="button" value="3" class="bnt">
+            <input onclick="insert('2')" type="button" value="2" class="bnt">
+            <input onclick="insert('1')" type="button" value="1" class="bnt">
+            <input onclick="insert('-')" type="button" value="-" class="bnt">
+            <input onclick="insert('0')" type="button" value="0" class="bnt">
+            <input onclick="clean()"     type="button" value="CE"class="bnt">
+            <input onclick="calcular()"  type="button" value="=" class="bnt">
+            <input onclick="insert('+')" type="button" value="+" class="bnt">
+
+        </div>
+
+    </section>
+
+    <script src="./scripts/script.js"></script>
+</body>
+
+</html>
